@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(240,240,240);
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Aleo', serif;
+}
+
+a {
+  color: #6927ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+/*i {
+  font-size: 30px;
+}*/
+
+
+/*customer class & ids*/
+#icon-size-sml ul i{
+  font-size: 15px;
+}
+
+#icon-size-large ul i{
+  font-size: 30px;
+}
+
+.container {
+  margin: 30px auto;
+  background-color: rgb(240,240,240);
+  box-shadow: 0px 0px 0px 0px;
+  width: 700px;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 30px 25px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.27);
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.btn-purple {
+  background-color: #6927ff;
+  color: white;
+  border-radius: 15px;
+  padding: 15px 20px;
+  font-family: Roboto;
+  font-size: 18px;
+}
+.btn-purple:hover {
+  text-decoration: none;
+}
+
+#intro p{
+  margin-bottom: 30px;
+}
+
+.list-inline {
+  padding: 0;
+}
+.list-inline li{
+  display: inline;
+  margin-right: 10px;
+}
+
+/*adding responsiveness*/
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
