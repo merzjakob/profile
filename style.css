@@ -44,10 +44,11 @@ a:hover {
 .card {
   background-color: white;
   text-align: center;
-  padding: 30px 25px;
-  margin-top: 50px;
+  padding: 20px 25px;
+  margin-top: 20px;
   border-radius: 10px;
   box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.27);
+
 }
 
 .img-circle {
@@ -78,6 +79,10 @@ a:hover {
 
 #intro p{
   margin-bottom: 30px;
+}
+
+#intro {
+  padding-bottom: 50px;
 }
 
 .list-inline {
