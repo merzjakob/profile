@@ -7,94 +7,110 @@
     <link href="https://fonts.googleapis.com/css?family=Aleo|Roboto" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
+    <div id="sidebar">
+      <a href="#intro">
+        <i class="fas fa-user"></i>
+      </a>
+      <a href="#social-media">
+      <i class="fas fa-comments"></i>
+      </a>
+      <a href="#hobbies">
+        <i class="fas fa-basketball-ball"></i>
+      </a>
+      <a href="#about-page">
+        <i class="fas fa-info-circle"></i>
+      </a>
+    </div>
 
-      <div class="card" id="intro">
-        <img src="images/jakob_merz_avatar.jpg" class="img-circle" alt="Jakob Merz">
-        <h1>Jakob Merz</h1>
-        <h2>Student @Le Wagon</h2>
-        <p>Currently diving into the world of coding!</p>
-        <a class="btn-purple" href="www.lewagon.com" target="_blank">Visit LeWagon</a>
+    <div id="page-content">
+      <div class="container">
+        <div class="card" id="intro">
+          <img src="images/jakob_merz_avatar.jpg" class="img-circle" alt="Jakob Merz">
+          <h1>Jakob Merz</h1>
+          <h2>Student @Le Wagon</h2>
+          <p>Currently diving into the world of coding!</p>
+          <a class="btn-purple" href="www.lewagon.com" target="_blank">Visit LeWagon</a>
+        </div>
+
+        <div class="card icon-size-large"  id="social-media">
+          <p>Connect with me on:</p>
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.facebook.com/jakob.merz"target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/jakobmerz/"target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/merzjakob"target="_blank">
+                <i class="fab fa-github-square"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card" id="hobbies">
+          <h2>My hobbies</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img class="img-regular" src="images/coding.jpg" alt="Coding">
+                </td>
+                <td>
+                  <h2>I like coding</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quasi ipsum debitis eligendi odio delectus, saepe? Asperiores repudiandae autem nihil recusandae ratione soluta, cupiditate vero modi iusto deserunt tenetur vitae.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class="img-regular" src="images/oktoberfest.jpg" alt="Turning up">
+                </td>
+                <td>
+                  <h2>I like turning up</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quasi ipsum debitis eligendi odio delectus, saepe? Asperiores repudiandae autem nihil recusandae ratione soluta, cupiditate vero modi iusto deserunt tenetur vitae.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class="img-regular" src="images/cooking.jpg" alt="Cooking">
+                </td>
+                <td>
+                  <h2>I like cooking</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quasi ipsum debitis eligendi odio delectus, saepe? Asperiores repudiandae autem nihil recusandae ratione soluta, cupiditate vero modi iusto deserunt tenetur vitae.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card icon-size-sml" id="about-page">
+          <h2>About this page</h2>
+          <p>This page has been coded during the <a href="https://lewagon.com/program"target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
+          <ul class="list-inline">
+            <li>
+              <a href="">
+                <i class="fas fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fas fa-star"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
       </div>
-
-      <div class="card" id="icon-size-large">
-        <p>Connect with me on:</p>
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.facebook.com/jakob.merz"target="_blank">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/jakobmerz/"target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/merzjakob"target="_blank">
-              <i class="fab fa-github-square"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h2>My hobbies</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <img class="img-regular" src="images/coding.jpg" alt="Coding">
-              </td>
-              <td>
-                <h2>I like coding</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quasi ipsum debitis eligendi odio delectus, saepe? Asperiores repudiandae autem nihil recusandae ratione soluta, cupiditate vero modi iusto deserunt tenetur vitae.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img class="img-regular" src="images/oktoberfest.jpg" alt="Turning up">
-              </td>
-              <td>
-                <h2>I like turning up</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quasi ipsum debitis eligendi odio delectus, saepe? Asperiores repudiandae autem nihil recusandae ratione soluta, cupiditate vero modi iusto deserunt tenetur vitae.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img class="img-regular" src="images/cooking.jpg" alt="Cooking">
-              </td>
-              <td>
-                <h2>I like cooking</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quasi ipsum debitis eligendi odio delectus, saepe? Asperiores repudiandae autem nihil recusandae ratione soluta, cupiditate vero modi iusto deserunt tenetur vitae.</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="card" id="icon-size-sml">
-        <h2>About this page</h2>
-        <p>This page has been coded during the <a href="https://lewagon.com/program"target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
-        <ul class="list-inline">
-          <li>
-            <a href="">
-              <i class="fas fa-heart"></i>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <i class="fas fa-arrow-right"></i>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <i class="fas fa-star"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-
     </div>
   </body>
 </html>

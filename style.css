@@ -10,6 +10,10 @@ p {
   font-family: 'Aleo', serif;
 }
 
+table p{
+  line-height: 1.5em;
+}
+
 a {
   color: #6927ff;
   text-decoration: none;
@@ -26,11 +30,11 @@ a:hover {
 
 
 /*customer class & ids*/
-#icon-size-sml ul i{
+.icon-size-sml ul i{
   font-size: 15px;
 }
 
-#icon-size-large ul i{
+.icon-size-large ul i{
   font-size: 30px;
 }
 
@@ -90,9 +94,37 @@ a:hover {
 }
 .list-inline li{
   display: inline;
-  margin-right: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(140,140,140,0.6);
+  text-align: center;
+  padding: 20px 0px;
+}
+
+#sidebar a {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  margin: 20px 0px 20px 0px;
+}
+
+#sidebar a:hover{
+  color: #6927ff;
+}
+
+#page-content {
+  margin-left: 120px;
+}
 /*adding responsiveness*/
 @media (max-width: 960px) {
   .container {
@@ -104,11 +136,17 @@ a:hover {
   .container {
     width: 500px;
   }
+  #sidebar{
+    display: none;
+  }
+  #page-content {
+  margin-left: 0px;
+}
 }
 
 @media (max-width: 540px) {
   .container {
-    width: 400px;
+    width: 300px;
   }
   .img-circle {
     width: 100px;
@@ -126,7 +164,15 @@ a:hover {
   table p {
   font-size: 0.8em;
   margin-top: 0px;
+  line-height: 1.2em;
   }
+
+  #sidebar{
+    display: none;
+  }
+  #page-content {
+  margin-left: 0px;
+}
 }
 
 
